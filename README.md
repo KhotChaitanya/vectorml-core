@@ -26,3 +26,10 @@ python main.py
 ```bash
 pytest
 ```
+
+## Empirical Results & Visual Benchmarks
+
+![VectorML Empirical Benchmarks](assets/empirical_benchmarks.png)
+
+- **VectorKNN Continuous Fit**: Demonstrates continuous regression fit against nonlinear test points using vectorized Euclidean distance aggregation.
+- **VectorNeuron Convergence**: Illustrates binary cross-entropy loss convergence over 100 epochs on linearly separable logic operations.
